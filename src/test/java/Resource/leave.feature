@@ -9,4 +9,4 @@ Feature: Leave Management
     And selecting fromdate and todate
     And selecting leavestatusdropdown and itsvalue
     And selecting leavetypedropdown and itsvalue
-    Then click on search button
+    Then click on search button..
