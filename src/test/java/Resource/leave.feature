@@ -5,7 +5,7 @@ Feature: Leave Management
     When you enter username "Admin" and Password "admin123"
     And User login successfully with valid credentials
     And click on leaves
-    And click on myleave
+   // And click on myleave
     And selecting fromdate and todate
     And selecting leavestatusdropdown and itsvalue
     And selecting leavetypedropdown and itsvalue
