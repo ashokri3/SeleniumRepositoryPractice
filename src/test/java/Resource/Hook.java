@@ -18,11 +18,11 @@ public class Hook
         l=new Launchbrowser();
         driver= l.browser();
     }
-   /* @After
+   @After
     public void end()
 
     {
         l.exit();
     }
-*/
+
 }

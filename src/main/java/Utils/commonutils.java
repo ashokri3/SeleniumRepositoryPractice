@@ -27,7 +27,15 @@ public class commonutils {
   return wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
  }
 
- public void clicking(By locator) {
+ public void clicking(By locator)
+ {
+  WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
+
+  wait.until(ExpectedConditions.invisibilityOfElementLocated(
+          By.cssSelector(".oxd-form-loader")));
+
+  wait.until(ExpectedConditions.elementToBeClickable(locator));
+
   clickelement(locator).click();
  }
 

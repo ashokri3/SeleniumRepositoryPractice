@@ -11,7 +11,7 @@ public class leavestepdefintions
     public void click_on_leave()
     {
     ls=new leavestatus(Hook.driver);
-    ls.leave();
+        ls.leave();
     }
     @When("click on myleave")
     public void click_on_myleave()
