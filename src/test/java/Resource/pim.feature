@@ -10,3 +10,4 @@ Feature: PIM
     And click on save button
     And click on report and record report
     Then view list of report details
+    //
